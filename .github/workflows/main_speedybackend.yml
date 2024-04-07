@@ -53,7 +53,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: python-app
-          path: .
+          path: cd dashbard
       
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
